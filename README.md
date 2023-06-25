@@ -113,6 +113,7 @@ const getUser = async (req, res, next) => {
   }
 }
 ```
+---
 
 With this setup, you can make requests to /your-route with the page and size query parameters to retrieve paginated results and get the corresponding pagination information in the response.
 
